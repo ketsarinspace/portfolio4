@@ -1,0 +1,45 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+nav {
+  background-color: #333; /* สีพื้นหลัง */
+  padding: 10px 20px; /* ระยะห่างภายใน */
+}
+
+nav ul {
+  list-style: none; /* ไม่ให้มีจุดหน้า */
+  display: flex; /* ใช้ flexbox เพื่อจัดเรียงรายการ */
+  gap: 20px; /* ระยะห่างระหว่างรายการ */
+}
+
+nav ul li {
+  display: inline; /* แสดงรายการในแนวนอน */
+}
+
+nav a {
+  color: white; /* สีข้อความ */
+  text-decoration: none; /* ไม่ให้มีขีดเส้นใต้ */
+  padding: 10px; /* ระยะห่างภายใน */
+  transition: background-color 0.3s; /* เอฟเฟกต์การเปลี่ยนสีพื้นหลัง */
+}
+
+nav a:hover {
+  background-color: #ddd; /* สีพื้นหลังเมื่อเอาเมาส์ไปวาง */
+  color: black; /* สีข้อความเมื่อเอาเมาส์ไปวาง */
+}
+
+/* สไตล์สำหรับลิงก์ที่ถูกเลือก */
+nav a.active {
+  background-color: orange; /* สีพื้นหลังเมื่อกดลิงก์ */
+  color: black; /* สีข้อความเมื่อกดลิงก์ */
+}
+
+/* Responsive design */
+@media screen and (max-width: 600px) {
+  nav ul {
+    flex-direction: column; /* ให้รายการอยู่ในแนวตั้ง */
+  }
+}
