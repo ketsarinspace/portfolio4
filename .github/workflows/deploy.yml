@@ -17,7 +17,7 @@ jobs:
       - name: Setup Node
         uses: actions/setup-node@v3
         with:
-          node-version: "14" # ระบุเวอร์ชันที่ต้องการ
+          node-version: "20" # ระบุเวอร์ชันที่ต้องการ
 
       - name: Cache Node.js modules
         uses: actions/cache@v3
