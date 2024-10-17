@@ -8,10 +8,11 @@ import Project from "./Components/Project.jsx";
 import Certification from "./Components/Certification.jsx";
 import Contact from "./Components/Contact.jsx";
 import "./index.css";
-import { createBrowserRouter, RouterProvider } from "react-router-dom";
+// import { createBrowserRouter, RouterProvider } from "react-router-dom";
+import { HashRouter as Router, RouterProvider } from "react-router-dom";
 
 //จะลิงค์ไปหน้าไหนก็เอาหน้านั้นมาใส่
-const router = createBrowserRouter([
+const router = Router([
   {
     path: "/",
     element: <App />,
@@ -43,3 +44,10 @@ createRoot(document.getElementById("root")).render(
     <RouterProvider router={router} />
   </StrictMode>
 );
+// createRoot(document.getElementById("root")).render(
+//   <StrictMode>
+//     <Router>
+//       <RouterProvider router={router} />
+//     </Router>
+//   </StrictMode>
+// );
