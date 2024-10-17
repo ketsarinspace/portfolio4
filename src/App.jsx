@@ -1,4 +1,4 @@
-// import { useState } from "react";
+import { Link } from "react-router-dom";
 
 import "./App.css";
 // import Nav from "./Components/Nav";
@@ -8,7 +8,8 @@ function App() {
       <h5>Hi Welcome to </h5>
       <h1>KETSARIN KHUNRAM</h1>
       {/* <Nav /> */}
-      <a href="Home">go home page</a>
+      {/* <a href="Home">go home page</a> */}
+      <Link to="/home">หน้าหลัก</Link>
     </>
   );
 }
