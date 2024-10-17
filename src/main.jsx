@@ -61,7 +61,7 @@ import { HashRouter as Router, Routes, Route } from "react-router-dom";
 // จะลิงค์ไปหน้าไหนก็เอาหน้านั้นมาใส่
 createRoot(document.getElementById("root")).render(
   <StrictMode>
-    <Router>
+    <Router basename={"/portfolio4"}>
       <Routes>
         <Route path="/" element={<App />} />
         {/* <Route path="/home" element={<Home />} />
