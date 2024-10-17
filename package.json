@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://github.com/ketsarinspace/portfolio4",
+  "homepage": "https://ketsarinspace.github.io/portfolio4",
   "scripts": {
     "dev": "vite",
     "predeploy": "npm run build",
