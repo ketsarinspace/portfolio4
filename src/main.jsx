@@ -3,7 +3,7 @@ import { createRoot } from "react-dom/client";
 import App from "./App.jsx";
 import Nav from "./Components/Nav.jsx";
 import Home from "./Components/Home.jsx";
-import About from "./Components/About.jsx";
+import Skill from "./Components/Skill.jsx";
 import Project from "./Components/Project.jsx";
 import Certification from "./Components/Certification.jsx";
 import Contact from "./Components/Contact.jsx";
@@ -26,11 +26,11 @@ createRoot(document.getElementById("root")).render(
           }
         />
         <Route
-          path="/about"
+          path="/skill"
           element={
             <>
               <Nav />
-              <About />
+              <Skill />
             </>
           }
         />

@@ -55,7 +55,7 @@ function Nav() {
             <Link to="/home">หน้าหลัก</Link>
           </li>
           <li>
-            <Link to="/about">เกี่ยวกับเรา</Link>
+            <Link to="/skill">ทักษะ</Link>
           </li>
           <li>
             <Link to="/project">ผลงาน</Link>
